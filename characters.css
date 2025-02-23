@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&family=Jacques+Francois+Shadow&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", serif;
+}
+
+h1 {
+    font-family: "Jacques Francois Shadow", serif;
+}
+
+header {
+    background: linear-gradient(to right,  #a61600e7, black );
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logoimg {
+    padding: 10px;
+    width: 15%;
+    height: auto;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nava {
+    color: white;
+    text-decoration: none;
+    margin-right:  50px;
+    font-family: "Jacquard 24", serif;
+    font-size: 24px;
+}
+
+main {
+    background-image: url(images/pattern.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+    display:flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 30px;
+    flex-direction: column;
+}
+
+.pustota {
+    width: 10%;
+}
+
+.heroes {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.conteiner {
+    display: flex;
+    color: white;
+    background: linear-gradient(to right,  #a616008c, black );
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+h2 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 24px;
+    max-width: 70%;
+    padding-top: 3%;
+}
+
+.fotoimg {
+    width: 100%;
+}
+
+footer {
+    background-color: #A61700;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoF {
+    display: flex;
+    align-items: center;
+}
+
+.logoFimg {
+    padding: 10px;
+    width: 15%;
+    height: auto;
+}
+
+.iconimg {
+    width: 10%;
+    height: au;
+}

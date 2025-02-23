@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&family=Jacques+Francois+Shadow&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", serif;
+}
+
+h1 {
+    font-family: "Jacques Francois Shadow", serif;
+}
+
+header {
+    background: linear-gradient(to right,  #a61600e7, black );
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logoimg {
+    padding: 10px;
+    width: 15%;
+    height: auto;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nava {
+    color: white;
+    text-decoration: none;
+    margin-right:  50px;
+    font-family: "Jacquard 24", serif;
+    font-size: 24px;
+}
+
+main {
+    background-image: url(images/pattern.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+    display:flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 30px;
+}
+
+.conteiner {
+    max-width: 1000px;
+    background-color: #4F0505;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+}
+
+h2  { 
+    font-size: 30px;
+    padding: 10px;
+}
+
+.info {
+    display: flex;
+    padding: 20px;
+}
+
+.text {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.foto {
+    flex: 1;
+    align-items: start;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.infop {
+    font-size: 20px;
+    text-align: justify;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 15px;
+    
+}
+
+.infoimg {
+    margin-left: 20%;
+    width: 60%;
+}
+
+
+h4 {
+    font-size: 24px;
+}
+
+footer {
+    background-color: #A61700;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoF {
+    display: flex;
+    align-items: center;
+}
+
+.logoFimg {
+    padding: 10px;
+    width: 15%;
+    height: auto;
+}
+
+.iconimg {
+    width: 10%;
+    height: au;
+}
